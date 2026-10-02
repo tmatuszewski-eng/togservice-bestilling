@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f3d62">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Togservice – Bestilling</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Togservice</h1>
+      <p>Bestilling av rekvisita</p>
+    </header>
+
+    <section class="train-card">
+      <label>
+        <span>TOG</span>
+        <input id="tog" inputmode="numeric" autocomplete="off" placeholder="f.eks. 710">
+      </label>
+      <label>
+        <span>SETT</span>
+        <input id="sett" inputmode="numeric" autocomplete="off" placeholder="f.eks. 73">
+      </label>
+    </section>
+
+    <div id="error" class="error" hidden>Fyll inn både TOG og SETT før du sender.</div>
+
+    <section id="categories" class="categories"></section>
+
+    <section class="note-card">
+      <label for="note">Notat / beskjed</label>
+      <textarea id="note" rows="3" placeholder="Valgfritt"></textarea>
+    </section>
+
+    <div class="actions">
+      <button id="previewBtn" class="secondary" type="button">VIS BESTILLING</button>
+      <button id="sendBtn" class="primary" type="button">SEND SMS</button>
+    </div>
+
+    <p class="test-note">Testversjon 0.3 – SMS sendes til +47 405 64 115</p>
+  </main>
+
+  <dialog id="previewDialog">
+    <div class="dialog-head">
+      <strong>Bestilling</strong>
+      <button id="closePreview" type="button" aria-label="Lukk">×</button>
+    </div>
+    <pre id="previewText"></pre>
+    <button id="sendFromPreview" class="primary" type="button">SEND SMS</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
