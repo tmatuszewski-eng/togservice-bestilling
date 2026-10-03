@@ -1,12 +1,15 @@
 const TEST_PHONE = "+4740564115";
 
-const catalog = [{"name": "Rekvisita", "items": [{"name": "GA beger 36 cl", "unit": "25"}, {"name": "Store lokk", "unit": "50"}, {"name": "Vinglass", "unit": "15"}, {"name": "Mineralvannskopp (HVITE)", "unit": "30"}, {"name": "Tallerken 24cm", "unit": "100"}, {"name": "Tallerken 17 cm", "unit": "50"}, {"name": "Pølselommer", "unit": "100"}, {"name": "Rørepinne", "unit": "500"}, {"name": "Ølbeger Plast", "unit": "65"}, {"name": "Skje stor 16cm", "unit": "100"}, {"name": "Teskje 11cm", "unit": "100"}, {"name": "Papir takeaway pose GA", "unit": "10"}, {"name": "Kanisterpose til Bakst", "unit": "50"}, {"name": "Kaffefilter", "unit": "250"}, {"name": "Take Away eske", "unit": "25"}, {"name": "Pizzabrett", "unit": "25"}, {"name": "Form til middager, 3delt", "unit": "25"}, {"name": "Potetmosbrett", "unit": "100"}, {"name": "Lapp til åpnet pølseposer & ruccolaposer", "unit": "1 rull"}, {"name": "Kakeserviett Paper Doily 28 cm", "unit": "15"}, {"name": "Burgerlommer", "unit": "25"}, {"name": "Grillform aluminum (til burger & lasagne)", "unit": "5"}, {"name": "Stålull", "unit": "1"}, {"name": "Bestikkpose", "unit": "20"}, {"name": "Antisklimatter", "unit": "100"}, {"name": "Kaffeholder 2 beger", "unit": "10"}]}, {"name": "Tilbehør", "items": [{"name": "Kaffemelk", "unit": "1 eske"}, {"name": "Ketchup Idun", "unit": "1"}, {"name": "Sennep Idun", "unit": "1"}, {"name": "Rock Salt m/kvern 140g", "unit": "1"}, {"name": "Tellicherry pepper m/kvern", "unit": "1"}, {"name": "Sitronflaske", "unit": "1"}, {"name": "Brunt sukker", "unit": "50"}, {"name": "Hvit sukker", "unit": "50"}, {"name": "Suketter", "unit": "50"}, {"name": "Tannpetare (tannpirkere)", "unit": "100"}, {"name": "Tørket løk", "unit": "1"}, {"name": "Twinings Grønn Te sitron", "unit": "1"}, {"name": "Twinings English Breakfast Tea", "unit": "1"}, {"name": "Twinings Nype og Hibiskus", "unit": "1"}, {"name": "Honning", "unit": "1"}, {"name": "Oregano", "unit": "1"}, {"name": "Piffikrydder", "unit": "1"}, {"name": "Persille", "unit": "1"}]}, {"name": "Forbruksmateriell", "items": [{"name": "Kaffetrakter rengjøring", "unit": "1"}, {"name": "Suma D2 Rengjøringsmiddel", "unit": "1"}, {"name": "Suma D3 - Desifenskjon spray stark", "unit": "1"}, {"name": "WipeClean Ethanol disinfection", "unit": "1"}, {"name": "Bakepapir", "unit": "1 rull"}, {"name": "MASKINDISK PREMIUM", "unit": "1"}, {"name": "Tørremiddel A7", "unit": "1"}, {"name": "Antibac for hender", "unit": "1"}, {"name": "Antibac overflatespray", "unit": "1"}, {"name": "Håndsåpe", "unit": "1"}, {"name": "Minitørk", "unit": "1 rull"}, {"name": "Søppelsekk 125L", "unit": "1 rull"}, {"name": "Nitril hansker", "unit": "200 i eske"}, {"name": "Oppvaskhansker", "unit": "1"}, {"name": "Burnshield", "unit": "1"}, {"name": "Håndkrem", "unit": "1"}, {"name": "Dispenserserviett Hvit 2-lags", "unit": "1"}, {"name": "Diskbørste", "unit": "1"}, {"name": "Svinnposer (fryseposer)", "unit": "1 rull"}, {"name": "Tape klar", "unit": "1 rull"}, {"name": "Serviett 33x33 cm Vanilje 3-lags", "unit": "1"}]}, {"name": "Utstyr", "items": [{"name": "Display Disk", "unit": "1"}, {"name": "Boks til te", "unit": "1"}, {"name": "Serviettdispenser brun", "unit": "1"}, {"name": "Kakefat", "unit": "1"}, {"name": "Kakelokk", "unit": "1"}, {"name": "Kaffekolbe", "unit": "1"}, {"name": "Grå bolle til frukt", "unit": "1"}, {"name": "Pizzahjul", "unit": "1"}, {"name": "Pølseklype", "unit": "1"}, {"name": "Pølseholder til disken", "unit": "1"}, {"name": "Pølsepapirholder", "unit": "1"}, {"name": "Saks", "unit": "1"}, {"name": "Vannkoker i rustfritt stål", "unit": "1"}, {"name": "Grønnsakskniv", "unit": "1"}, {"name": "Vinåpner", "unit": "1"}, {"name": "\"Kjøpt i kafeen\"-klistremerker", "unit": "1 rull"}, {"name": "Post it", "unit": "1"}]}, {"name": "Snacks til Ekstra / Hvile", "items": [{"name": "Wasa knekkebrød", "unit": "1 eske"}, {"name": "Smålsulten", "unit": "1 eske"}, {"name": "First price vann", "unit": "6 pack"}, {"name": "GA sjokolade", "unit": "1 eske"}]}];
+const catalog = [{"name": "Rekvisita", "items": [{"name": "GA beger 36 cl", "unit": "25"}, {"name": "Store lokk", "unit": "50"}, {"name": "Vinglass", "unit": "15"}, {"name": "Mineralvannskopp (hvite)", "unit": "30"}, {"name": "Tallerken 24 cm", "unit": "100"}, {"name": "Tallerken 17 cm", "unit": "50"}, {"name": "Pølselommer", "unit": "100"}, {"name": "Rørepinne", "unit": "500"}, {"name": "Ølbeger plast", "unit": "65"}, {"name": "Skje stor 16 cm", "unit": "100"}, {"name": "Teskje 11 cm", "unit": "100"}, {"name": "Papir takeaway pose GA", "unit": "10"}, {"name": "Kanisterpose til bakst", "unit": "50"}, {"name": "Kaffefilter", "unit": "250"}, {"name": "Takeaway-eske", "unit": "25"}, {"name": "Pizzabrett", "unit": "25"}, {"name": "Form til middager, 3-delt", "unit": "25"}, {"name": "Potetmosbrett", "unit": "100"}, {"name": "Lapp til åpne pølseposer og ruccolaposer", "unit": "1 rull"}, {"name": "Kakeserviett Paper Doily 28 cm", "unit": "15"}, {"name": "Burgerlommer", "unit": "25"}, {"name": "Grillform i aluminium (til burger og lasagne)", "unit": "5"}, {"name": "Stålull", "unit": "1"}, {"name": "Bestikkpose", "unit": "20"}, {"name": "Antisklimatter", "unit": "100"}, {"name": "Kaffeholder 2 beger", "unit": "10"}]}, {"name": "Tilbehør", "items": [{"name": "Kaffemelk", "unit": "1 eske"}, {"name": "Ketchup Idun", "unit": "1"}, {"name": "Sennep Idun", "unit": "1"}, {"name": "Rock Salt m/kvern 140 g", "unit": "1"}, {"name": "Tellicherry-pepper m/kvern", "unit": "1"}, {"name": "Sitronflaske", "unit": "1"}, {"name": "Brunt sukker", "unit": "50"}, {"name": "Hvit sukker", "unit": "50"}, {"name": "Suketter", "unit": "50"}, {"name": "Tannpirkere", "unit": "100"}, {"name": "Tørket løk", "unit": "1"}, {"name": "Twinings grønn te med sitron", "unit": "1"}, {"name": "Twinings English Breakfast Tea", "unit": "1"}, {"name": "Twinings nype og hibiskus", "unit": "1"}, {"name": "Honning", "unit": "1"}, {"name": "Oregano", "unit": "1"}, {"name": "Piffikrydder", "unit": "1"}, {"name": "Persille", "unit": "1"}]}, {"name": "Forbruksmateriell", "items": [{"name": "Kaffetrakter rengjøring", "unit": "1"}, {"name": "Suma D2 rengjøringsmiddel", "unit": "1"}, {"name": "Suma D3 - desinfeksjonsspray sterk", "unit": "1"}, {"name": "WipeClean Ethanol disinfection", "unit": "1"}, {"name": "Bakepapir", "unit": "1 rull"}, {"name": "Maskindisk Premium", "unit": "1"}, {"name": "Tørremiddel A7", "unit": "1"}, {"name": "Antibac for hender", "unit": "1"}, {"name": "Antibac overflatespray", "unit": "1"}, {"name": "Håndsåpe", "unit": "1"}, {"name": "Minitørk", "unit": "1 rull"}, {"name": "Søppelsekk 125 L", "unit": "1 rull"}, {"name": "Nitrilhansker", "unit": "200 i eske"}, {"name": "Oppvaskhansker", "unit": "1"}, {"name": "Burnshield", "unit": "1"}, {"name": "Håndkrem", "unit": "1"}, {"name": "Dispenserserviett, hvit, 2-lags", "unit": "1"}, {"name": "Diskbørste", "unit": "1"}, {"name": "Svinnposer (fryseposer)", "unit": "1 rull"}, {"name": "Tape klar", "unit": "1 rull"}, {"name": "Serviett 33 × 33 cm, vanilje, 3-lags", "unit": "1"}]}, {"name": "Utstyr", "items": [{"name": "Display disk", "unit": "1"}, {"name": "Boks til te", "unit": "1"}, {"name": "Serviettdispenser brun", "unit": "1"}, {"name": "Kakefat", "unit": "1"}, {"name": "Kakelokk", "unit": "1"}, {"name": "Kaffekolbe", "unit": "1"}, {"name": "Grå bolle til frukt", "unit": "1"}, {"name": "Pizzahjul", "unit": "1"}, {"name": "Pølseklype", "unit": "1"}, {"name": "Pølseholder til disken", "unit": "1"}, {"name": "Pølsepapirholder", "unit": "1"}, {"name": "Saks", "unit": "1"}, {"name": "Vannkoker i rustfritt stål", "unit": "1"}, {"name": "Grønnsakskniv", "unit": "1"}, {"name": "Vinåpner", "unit": "1"}, {"name": "\"Kjøpt i kafeen\"-klistremerker", "unit": "1 rull"}, {"name": "Post-it", "unit": "1"}]}, {"name": "Snacks til Ekstra / Hvile", "items": [{"name": "Wasa knekkebrød", "unit": "1 eske"}, {"name": "Smålsulten", "unit": "1 eske"}, {"name": "First Price vann", "unit": "6-pakning"}, {"name": "GA sjokolade", "unit": "1 eske"}]}];
 
 const state = {};
 const categoriesEl = document.getElementById("categories");
 const togEl = document.getElementById("tog");
 const settEl = document.getElementById("sett");
 const noteEl = document.getElementById("note");
+const dateEl = document.getElementById("date");
+const redskaperEl = document.getElementById("redskaper");
+const nameEl = document.getElementById("name");
 const errorEl = document.getElementById("error");
 
 function keyFor(category, name) {
@@ -90,20 +93,42 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function formatDate(date) {
+  return new Intl.DateTimeFormat("nb-NO", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  }).format(date);
+}
+
+function setTodayDate() {
+  dateEl.value = formatDate(new Date());
+}
+
 function validate() {
-  const ok = togEl.value.trim() && settEl.value.trim();
-  errorEl.hidden = !!ok;
-  if (!ok) {
+  const missingTrain = !togEl.value.trim() || !settEl.value.trim();
+  const missingName = !nameEl.value.trim();
+
+  if (missingTrain || missingName) {
+    const missing = [];
+    if (missingTrain) missing.push("TOG og SETT");
+    if (missingName) missing.push("navn / etternavn");
+    errorEl.textContent = "Fyll inn " + missing.join(" og ") + " før du sender.";
+    errorEl.hidden = false;
     window.scrollTo({ top: 0, behavior: "smooth" });
     return false;
   }
+
+  errorEl.hidden = true;
   return true;
 }
 
 function buildMessage() {
   const tog = togEl.value.trim();
   const sett = settEl.value.trim();
-  const lines = [`TOG ${tog} | SETT ${sett}`, ""];
+  const date = dateEl.value.trim();
+  const name = nameEl.value.trim();
+  const lines = [`TOG ${tog} | SETT ${sett}`, `Dato: ${date}`, `Navn: ${name}`, ""];
 
   let anything = false;
 
@@ -117,27 +142,26 @@ function buildMessage() {
 
     if (selected.length) {
       anything = true;
-
       let categoryName = category.name.toUpperCase();
-      if (category.name === "Snacks til Ekstra / Hvile") {
-        categoryName = "SNACKS / HVILE";
-      }
-
+      if (category.name === "Snacks til Ekstra / Hvile") categoryName = "SNACKS / HVILE";
       lines.push(categoryName);
       lines.push(...selected);
       lines.push("");
     }
   });
 
-  if (!anything) {
+  if (redskaperEl.checked) {
+    lines.push("Redskaper ønskes");
+    lines.push("");
+  }
+
+  if (!anything && !redskaperEl.checked) {
     lines.push("(Ingen varer valgt)");
     lines.push("");
   }
 
   const note = noteEl.value.trim();
-  if (note) {
-    lines.push(`Beskjed: ${note}`);
-  }
+  if (note) lines.push(`Beskjed: ${note}`);
 
   return lines.join("\n").trim();
 }
@@ -157,9 +181,12 @@ function resetForm() {
   togEl.value = "";
   settEl.value = "";
   noteEl.value = "";
+  nameEl.value = "";
+  redskaperEl.checked = false;
   localStorage.removeItem("tog");
   localStorage.removeItem("sett");
   errorEl.hidden = true;
+  setTodayDate();
 
   // Zwiń wszystkie kategorie
   document.querySelectorAll(".category").forEach(details => {
@@ -209,6 +236,7 @@ document.getElementById("closePreview").addEventListener("click", () => dialog.c
 });
 
 renderCatalog();
+setTodayDate();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));

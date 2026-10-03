@@ -1,4 +1,4 @@
-TOGSERVICE BESTILLING – TEST v0.3
+TOGSERVICE BESTILLING – TEST v0.4
 
 Pliki:
 - index.html – formularz
@@ -41,3 +41,13 @@ UWAGA:
 Przeglądarka nie może sprawdzić, czy użytkownik faktycznie nacisnął „Wyślij”
 w aplikacji Wiadomości. Dlatego reset następuje w momencie naciśnięcia SEND SMS
 w formularzu i otwarcia aplikacji SMS.
+
+
+ZMIANY W v0.4:
+- automatyczna data z systemu telefonu/komputera
+- data widoczna w formularzu i w SMS
+- checkbox „Trenger redskaper”; w SMS tylko po zaznaczeniu
+- obowiązkowe pole „Navn / etternavn”
+- nazwisko/imię trafia do SMS
+- poprawki literówek i drobnych błędów językowych
+- pozostawiono bez zmian: Papir takeaway pose GA, Kaffetrakter rengjøring, WipeClean Ethanol disinfection

@@ -17,6 +17,13 @@
       <p>Bestilling av rekvisita</p>
     </header>
 
+    <section class="date-card">
+      <label>
+        <span>DATO</span>
+        <input id="date" type="text" readonly aria-readonly="true">
+      </label>
+    </section>
+
     <section class="train-card">
       <label>
         <span>TOG</span>
@@ -28,9 +35,21 @@
       </label>
     </section>
 
-    <div id="error" class="error" hidden>Fyll inn både TOG og SETT før du sender.</div>
+    <div id="error" class="error" hidden>Fyll inn TOG, SETT og navn / etternavn før du sender.</div>
 
     <section id="categories" class="categories"></section>
+
+    <section class="extra-card">
+      <label class="checkbox-row" for="redskaper">
+        <input id="redskaper" type="checkbox">
+        <span>Trenger redskaper</span>
+      </label>
+    </section>
+
+    <section class="name-card">
+      <label for="name">Navn / etternavn <span class="required">*</span></label>
+      <input id="name" type="text" autocomplete="name" placeholder="Påkrevd">
+    </section>
 
     <section class="note-card">
       <label for="note">Notat / beskjed</label>
@@ -42,7 +61,7 @@
       <button id="sendBtn" class="primary" type="button">SEND SMS</button>
     </div>
 
-    <p class="test-note">Testversjon 0.3 – SMS sendes til +47 405 64 115</p>
+    <p class="test-note">Testversjon 0.4 – SMS sendes til +47 405 64 115</p>
   </main>
 
   <dialog id="previewDialog">

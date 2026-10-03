@@ -175,3 +175,47 @@ dialog .primary { width:100%; padding: 12px; }
   .counter button, .count { height: 42px; }
   .item { padding-left: 10px; }
 }
+
+
+.date-card,
+.extra-card,
+.name-card {
+  margin-top: 12px;
+  background: var(--card);
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.date-card label span,
+.name-card label {
+  display: block;
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.date-card input[readonly] {
+  background: #f6f8fa;
+  color: #243746;
+  font-weight: 750;
+}
+
+.checkbox-row {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  margin: 0 !important;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox-row input {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  accent-color: var(--blue);
+}
+
+.required { color: #a31919; }
